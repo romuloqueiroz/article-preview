@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&family=Montserrat:wght@200&family=Outfit&display=swap');
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    width: 30%;
+    border-radius: 15px;
+}
+
+.main img {
+    display: flex;
+    min-height: 3vh;
+    width: 21.62rem;
+    border-radius: 15px 0 0 15px;
+}
+
+.content span {
+    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: center;
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.content p {
+    margin: 0.7rem 0.7rem 0.7rem 0.7rem;
+    color: hsl(214, 17%, 51%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.footer .container {
+    display: flex;
+    max-width: 320px;
+}
+
+.footer img {
+    margin: 0.5rem 0 0.5rem 1rem;
+    border-radius: 50%;
+    align-items: left;
+    width: 3rem;
+}
+
+.footer .container span {
+    color: hsl(217, 19%, 35%);
+    
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.btn-mudarcor{
+    width: 100%;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.btn-enable{
+    width: 50%;
+    cursor: pointer;
+    background-color: blue;
+}
+
+@media screen and (max-width: 375px) {
+    .card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+}
+
+.main img {
+    display: flex;
+    min-height: 3vh;
+    width: 19.876rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.footer .container {
+    display: flex;
+    max-width: 320px;
+}
+
+.footer img {
+    margin: 0.5rem 0 0.5rem 1rem;
+    border-radius: 50%;
+    align-items: left;
+    width: 3rem;
+}
+
+.footer .container span {
+    color: hsl(217, 19%, 35%);
+    
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+    
+}
+
+
+
+
+
